@@ -1,0 +1,10 @@
+.imgCompo{
+    padding: 20px;
+    width: 100%;
+}
+@media screen and (max-width: 425px){
+    
+    .IMGG{
+        width: 100%;
+    }
+}

@@ -1,0 +1,210 @@
+.parent {
+  width: 100%;
+  margin: 5rem 5rem 5rem 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.child2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 50%;
+
+  padding: 5rem;
+  margin-top: 3rem;
+}
+.child2 > h1 {
+  margin-bottom: 2rem;
+  background-color: reed;
+}
+.child2 > p {
+  color: gray;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+.child2 > .btn1 {
+  width: 40%;
+  background-color: purple;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.child2 > .btn1:hover {
+  text-decoration: underline;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(231, 27, 231);
+}
+/* =====================media Quries ======================*/
+@media screen and (max-width: 425px) {
+  .parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .child1 > img {
+    width: 300px;
+    /* margin-left: 2rem; */
+  }
+  .child2 {
+    width: 50%;
+    margin: auto;
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .child2 > h1 {
+    font-size: 40px;
+    width: 50vw;
+    text-align: center;
+  }
+  .child2 > p {
+    width: 70vw;
+    color: gray;
+    text-align: start;
+    margin-bottom: 2rem;
+  }
+  .child2 > .btn1 {
+    width: 30vw;
+    background-color: purple;
+    padding: 10px 0;
+  }
+  .child2 > .btn1:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(231, 27, 231);
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .child1 > img {
+    width: 400px;
+  }
+  .child2 {
+    width: 50%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .child2 > h1 {
+    font-size: 40px;
+    width: 40vw;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .child2 > p {
+    width: 80vw;
+    color: gray;
+    text-align: center;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  .child2 > .btn1 {
+    width: 30vw;
+    background-color: purple;
+    padding: 10px 0;
+  }
+  .child2 > .btn1:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(231, 27, 231);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+  .parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .child1 > img {
+    width: 400px;
+    margin-left: 2rem;
+  }
+  .child2 {
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  .child2 > h1 {
+    width: 30vw;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .child2 > p {
+    width: 40vw;
+    color: gray;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .child2 > .btn1 {
+    width: 30vw;
+    background-color: purple;
+    padding: 10px 0;
+  }
+  .child2 > .btn1:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(231, 27, 231);
+  }
+}
+@media screen and (min-width: 1050px) and (max-width: 1200px) {
+  .child2 {
+    width: 50%;
+    /* height: 50vh;
+        margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+  }
+  .child2 > h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .child2 > p {
+    width: 40vw;
+    color: gray;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .child2 > .btn1 {
+    width: 30vw;
+    background-color: purple;
+  }
+  .child2 > .btn1:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(231, 27, 231);
+  }
+}

@@ -1,0 +1,143 @@
+.comp3Parent {
+  width: 100%;
+  margin: 5rem 5rem 5rem 0;
+  background-color: rgb(228, 245, 245);
+  display: flex;
+  justify-content: center;
+}
+.child2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 50%;
+
+  padding: 5rem;
+  margin-top: 3rem;
+}
+.child2 > h1 {
+  margin-bottom: 2rem;
+}
+.child2 > p {
+  color: gray;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+.btn2 {
+  width: 40%;
+  background-color: purple;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.btn2 > button:hover {
+  text-decoration: underline;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(231, 27, 231);
+}
+
+/* =====================media Quries ======================*/
+
+@media screen and (max-width: 425px) {
+  .comp3Parent {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+  }
+  .btn2 {
+    width: 30vw;
+    background-color: purple;
+    padding: 10px 0;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .btn2:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(231, 27, 231);
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .comp3Parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .btn2 {
+    width: 30vw;
+    background-color: purple;
+    padding: 10px 0;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .btn2:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(231, 27, 231);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+  .comp3Parent {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .btn2 {
+    width: 30vw;
+    background-color: purple;
+    padding: 10px 0;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .btn2:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(231, 27, 231);
+  }
+}
+@media screen and (min-width: 1050px) and (max-width: 1200px) {
+  .comp3Parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+   
+  }
+
+  .btn2 {
+    width: 30vw;
+    background-color: purple;
+    padding: 10px 0;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .btn2:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(231, 27, 231);
+  }
+}

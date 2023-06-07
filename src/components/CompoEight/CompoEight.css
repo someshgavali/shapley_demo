@@ -1,0 +1,50 @@
+.compoEight {
+  width: 100%;
+  height: 30%;
+  padding: 5rem;
+  background-color: rgb(206, 236, 226);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+.compoEight > h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.compoEight > button {
+  color: white;
+  background-color: purple;
+  padding: 15px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 15px;
+  border: none;
+}
+.compoEight > button:hover {
+  color: black;
+  background-color: rgb(241, 14, 241);
+  border-radius: 10px;
+  text-decoration: underline;
+}
+
+/* =====================media Quries ======================*/
+@media screen and (max-width: 425px) {
+  .compoEight {
+    width: 100%;
+    /* height: 50%; */
+    /* padding: 5rem; */
+    background-color: rgb(206, 236, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+}

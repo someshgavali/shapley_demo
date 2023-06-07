@@ -1,0 +1,110 @@
+.headingContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /* margin: 5rem 5rem 5rem 0; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headInfo {
+  margin-bottom: 2rem;
+  top: 40%;
+  left: 15%;
+}
+.headInfo > h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.headInfo > p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+}
+.btns > #btn1 {
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: purple;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+.btns > #btn1:hover {
+  background-color: rgb(233, 18, 233);
+}
+.btns > .btn2 {
+  color: white;
+  background-color: transparent;
+  padding: 15px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+.btns > .btn2:hover {
+  color: black;
+  background-color: white;
+}
+/* =====================media Quries */
+@media screen and (max-width: 390px) {
+  .headInfo > h1 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .headingContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headInfo > h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .headInfo > p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .headInfo > h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .headInfo > p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+  .headInfo > h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .headInfo > p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
